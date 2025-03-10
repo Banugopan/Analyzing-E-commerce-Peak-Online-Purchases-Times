@@ -13,7 +13,7 @@ The dataset comes from **Kaggle Ecommerce Data from Carrie** and includes:
 The data is stored in **Oracle 19c** and follows a **star schema model** for efficient organization and analysis.
 
 ## 📜 Context
-Typically, e-commerce datasets are proprietary and consequently hard to find among publicly available data. However, the UCI Machine Learning Repository has made this dataset containing actual transactions from 2010 and 2011. The dataset is maintained on their site, where it can be found by the title **"Online Retail"**.
+E-commerce datasets are often proprietary and difficult to access publicly. However, this dataset, originally from the **UCI Machine Learning Repository**, contains real transaction data from 2010 and 2011. It is also known as **"Online Retail"** and is widely used for data analysis and machine learning applications.
 
 ## 🔧 Analysis Steps
 1. **Data Extraction**: Import raw data from the database.
