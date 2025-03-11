@@ -1,4 +1,4 @@
-# 📊 Analysis of Online Purchase Times
+#  Analysis of Online Purchase Times
 
 ## Project Objective
 This project analyzes online purchase times to identify peak shopping periods and optimize business strategies.
