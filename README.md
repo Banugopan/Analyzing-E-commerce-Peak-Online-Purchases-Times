@@ -62,6 +62,7 @@ Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionab
 - **Stock & Offer Optimization**: Adjust inventory based on customer behavior patterns.
 
 ## 5. Conclusions & Recommendations
+![newplot (1)](https://github.com/user-attachments/assets/8b9e82a9-afe0-4999-bfcd-80f86e354431)
 
 ### 5.1 Project Challenges
 Challenges included handling inconsistent data, optimizing complex SQL queries, and integrating multiple data sources.
