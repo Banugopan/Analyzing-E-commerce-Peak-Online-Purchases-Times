@@ -1,5 +1,11 @@
 # E-commerce Customer Behavior Analysis
 
+### Technologies Used
+- **Database**: Oracle 19c
+- **SQL**: For data manipulation and analysis
+- **Data Cleaning & Preparation**: Python, Pandas
+- **Data Visualization**: Python, Matplotlib, Seaborn, Google Colab
+
 ## 1. Project Overview
 
 ### 1.1 General Context
@@ -72,11 +78,7 @@ Challenges included handling inconsistent data, optimizing complex SQL queries, 
 - **Targeted Marketing**: Leverage insights to improve sales during evenings and Thursdays at 12 PM.
 - **Web Scraping**: Future work could include scraping public data for additional insights and predictive analytics.
 
-## Technologies Used
-- **Database**: Oracle 19c
-- **SQL**: For data manipulation and analysis
-- **Data Cleaning & Preparation**: Python, Pandas
-- **Data Visualization**: Python, Matplotlib, Seaborn, Google Colab
+
 
 ---
 
