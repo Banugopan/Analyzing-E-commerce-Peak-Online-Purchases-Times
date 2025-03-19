@@ -70,6 +70,8 @@ Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionab
 
 ## 5. Conclusions & Recommendations
 ![newplot (1)](https://github.com/user-attachments/assets/8b9e82a9-afe0-4999-bfcd-80f86e354431)
+![téléchargement (1)](https://github.com/user-attachments/assets/322ba618-63af-4c98-bf01-80b3fabf074e)
+![téléchargement](https://github.com/user-attachments/assets/9c6ca2ab-5d22-46de-aff1-b89c70b41d5c)
 
 ### 5.1 Project Challenges
 Challenges included handling inconsistent data, optimizing complex SQL queries, and integrating multiple data sources.
