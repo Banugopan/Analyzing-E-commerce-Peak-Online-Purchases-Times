@@ -70,9 +70,9 @@ Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionab
 
 ## 5. Conclusions & Recommendations
 <p align="center">
-  <img src="![téléchargement (1)](https://github.com/user-attachments/assets/d3e2672e-6654-45cf-ba17-b6323406152a)" width="30%" />
-  <img src="https://github.com/user-attachments/assets/232ba618-63af-4c98-bf01-80b7abf67042" width="30%" />
-  <img src="https://github.com/user-attachments/assets/9c6ca2ab-5d22-4d6e-aff1-b99c70b41d5c" width="30%" />
+![newplot (1)](https://github.com/user-attachments/assets/0b91db79-47a3-48fb-bd4c-95653adf3d7e)
+![téléchargement](https://github.com/user-attachments/assets/9c0d8de4-8817-4815-9f02-67a319fabbed)
+![téléchargement (1)](https://github.com/user-attachments/assets/93264cfd-bfed-4bd9-b610-346ef18042d8)
 </p>
 
 
