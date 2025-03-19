@@ -26,6 +26,7 @@ A **star schema** was used for modeling the data, with a central fact table cont
 
 ### 2.2 Data Collection & Import
 The data was imported into an Oracle 19c database directly from an Excel file. It was formatted and cleaned before being inserted into the database tables.
+![ERD](https://github.com/user-attachments/assets/20699c62-1abc-46db-a7e9-0723d1206aac)
 
 ### 2.3 Data Cleaning & Preparation
 The following steps were taken to clean and prepare the data:
