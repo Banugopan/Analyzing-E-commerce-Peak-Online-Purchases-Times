@@ -1,25 +1,81 @@
-#  Analysis of Online Purchase Times
+# E-commerce Customer Behavior Analysis
 
-## Project Objective
-This project analyzes online purchase times to identify peak shopping periods and optimize business strategies.
+## 1. Project Overview
 
-## 🔍 Data Used
-The dataset comes from **Kaggle Ecommerce Data from Carrie** and includes:
-- **dim_order**: Information about orders (order ID, date, time).
-- **dim_product**: Product details (product ID, description).
-- **dim_customer**: Customer information (customer ID, country).
-- **fact_sales**: Sales details (quantity, unit price, etc.).
+### 1.1 General Context
+With the rise of e-commerce, businesses now have the ability to analyze vast amounts of customer data. This project explores customer behaviors in online shopping by examining attributes such as purchase frequency, preferences, and transaction amounts to help businesses tailor their marketing strategies and improve customer satisfaction.
 
-The data is stored in **Oracle 19c** and follows a **star schema model** for efficient organization and analysis.
+### 1.2 Objective & Motivation
+The goal of this project is to identify customer purchasing patterns and key drivers behind their decisions. By analyzing customer data, businesses can enhance product placements, optimize marketing strategies, and improve overall shopping experiences. The project also aims to create an interactive data visualization that presents actionable insights to decision-makers.
 
-## 📜 Context
-E-commerce datasets are often proprietary and difficult to access publicly. However, this dataset, originally from the **UCI Machine Learning Repository**, contains real transaction data from 2010 and 2011. It is also known as **"Online Retail"** and is widely used for data analysis and machine learning applications.
+### 1.3 Methodology
+The project follows these steps:
+- **Data Collection**: The dataset was sourced from Kaggle, containing customer transaction details.
+- **Data Modeling**: A star schema was employed to model the database.
+- **Data Cleaning & Preparation**: Null values, duplicates, and outliers were handled, and the data was normalized.
+- **SQL Queries**: SQL was used to extract insights from the dataset.
+- **Data Visualization**: Python and Google Colab were used for data visualization.
 
-## 🔧 Analysis Steps
-1. **Data Extraction**: Import raw data from the database.
-2. **Cleaning and Preparation**: Process data for analysis.
-3. **Temporal Analysis**: Identify peak hours for online purchases.
-4. **Visualization**: Create charts to represent purchase times.
+### 1.4 Dataset
+The dataset used in this project is sourced from Kaggle, specifically from an e-commerce platform in the UK. It includes customer transaction data with features such as transaction dates, amounts, product categories, and customer demographics. This data is authentic, provided by a real online store and shared for academic purposes.
 
-## 📈 Results
-The analysis indicates that most purchases occur between **[XX:XX]** and **[YY:YY]**. These insights can help improve marketing strategies and inventory management.
+## 2. Data Preparation & Modeling
+
+### 2.1 Database Modeling
+A **star schema** was used for modeling the data, with a central fact table containing transactional data and dimension tables detailing attributes such as customers, products, and time. This schema allows for efficient data analysis and query performance.
+
+### 2.2 Data Collection & Import
+The data was imported into an Oracle 19c database directly from an Excel file. It was formatted and cleaned before being inserted into the database tables.
+
+### 2.3 Data Cleaning & Preparation
+The following steps were taken to clean and prepare the data:
+- **Handling Null Values**: Missing values were replaced with placeholders.
+- **Removing Duplicates**: Duplicate records were removed using composite keys.
+- **Format Validation**: Data was validated for consistency.
+- **Identifying Outliers**: Outliers such as negative quantities were removed.
+- **Data Normalization**: The data was normalized following a star schema to reduce redundancy and improve data integrity.
+- **Indexing & Optimization**: Indexes were created for frequently queried columns to optimize query performance.
+
+## 3. SQL Queries & Customer Behavior Analysis
+
+### 3.1 SQL Queries for Data Extraction
+- **Basic SQL Queries**: Extracted top-selling products, most active customers, and filtered data for orders in 2011.
+- **Advanced SQL Queries**: Included customer order frequency analysis, unsold product detection, and monthly revenue calculations.
+- **Analytical Functions**: Used window functions like `RANK()` for customer ranking and `LAG()` for order interval analysis.
+- **Aggregations & Pivoting**: Created pivot tables for monthly sales summaries.
+- **Data Maintenance**: Used the `MERGE` statement for upserting product information.
+- **Indexing Strategies**: B-tree and function-based indexing were implemented to optimize queries.
+- **Partitioning**: Data was partitioned by year and region to improve performance.
+
+## 4. Data Visualization & Insights
+
+### 4.1 Behavioral Trends & Patterns
+Key customer behavioral trends observed:
+- **Peak Purchase Hours**: Orders were mostly placed between 10 AM - 3 PM.
+- **Top Purchase Days**: Saturdays had the highest sales.
+- **Product Trends**: The top 5 products accounted for over 30% of total revenue.
+
+### 4.2 Insights & Analysis
+Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionable insights:
+- **Marketing Focus**: Target promotions during evening hours and weekends.
+- **Top-Selling Products**: Focus marketing campaigns on high-demand products.
+- **Stock & Offer Optimization**: Adjust inventory based on customer behavior patterns.
+
+## 5. Conclusions & Recommendations
+
+### 5.1 Project Challenges
+Challenges included handling inconsistent data, optimizing complex SQL queries, and integrating multiple data sources.
+
+### 5.2 Recommendations for Future Research
+- **Targeted Marketing**: Leverage insights to improve sales during evenings and Thursdays at 12 PM.
+- **Web Scraping**: Future work could include scraping public data for additional insights and predictive analytics.
+
+## Technologies Used
+- **Database**: Oracle 19c
+- **SQL**: For data manipulation and analysis
+- **Data Cleaning & Preparation**: Python, Pandas
+- **Data Visualization**: Python, Matplotlib, Seaborn, Google Colab
+
+---
+
+For detailed code and scripts, refer to the GitHub repository.
