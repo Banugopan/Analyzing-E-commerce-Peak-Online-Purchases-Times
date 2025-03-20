@@ -65,8 +65,6 @@ Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionab
 - **Top-Selling Products**: Focus marketing campaigns on high-demand products.
 - **Stock & Offer Optimization**: Adjust inventory based on customer behavior patterns.
 </br>
-</br>
-
 **E-commerce Purchase Patterns: Daily,Hours,and Trend Anlaysis**
 
 <div style="display: flex; justify-content: space-around;">
