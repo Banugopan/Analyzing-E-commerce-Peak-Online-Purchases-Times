@@ -8,13 +8,10 @@
 
 ## 1. Project Overview
 
-### 1.1 General Context
-With the rise of e-commerce, businesses now have the ability to analyze vast amounts of customer data. This project explores customer behaviors in online shopping by examining attributes such as purchase frequency, preferences, and transaction amounts to help businesses tailor their marketing strategies and improve customer satisfaction.
-
-### 1.2 Objective & Motivation
+### 1.1 Objective & Motivation
 The goal of this project is to identify customer purchasing patterns and key drivers behind their decisions. By analyzing customer data, businesses can enhance product placements, optimize marketing strategies, and improve overall shopping experiences. The project also aims to create an interactive data visualization that presents actionable insights to decision-makers.
 
-### 1.3 Methodology
+### 1.2 Methodology
 The project follows these steps:
 - **Data Collection**: The dataset was sourced from Kaggle, containing customer transaction details.
 - **Data Modeling**: A star schema was employed to model the database.
@@ -22,7 +19,7 @@ The project follows these steps:
 - **SQL Queries**: SQL was used to extract insights from the dataset.
 - **Data Visualization**: Python and Google Colab were used for data visualization.
 
-### 1.4 Dataset
+### 1.3 Dataset
 The dataset used in this project is sourced from Kaggle, specifically from an e-commerce platform in the UK. It includes customer transaction data with features such as transaction dates, amounts, product categories, and customer demographics. This data is authentic, provided by a real online store and shared for academic purposes.
 
 ## 2. Data Preparation & Modeling
