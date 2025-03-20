@@ -3,7 +3,7 @@
 ### Technologies Used
 - **Database**: Oracle 19c
 - **SQL**: For data manipulation and analysis
-- **Data Cleaning & Preparation**: Python, Pandas
+- **Data Cleaning & Preparation**: Sql,Python, Pandas
 - **Data Visualization**: Python, Matplotlib, Seaborn, Google Colab
 
 ## 1. Project Overview
