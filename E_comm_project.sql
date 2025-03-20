@@ -1,7 +1,4 @@
-drop table TEMP_ECOMMERCE
-truncate table TEMP_ECOMMERCE
-
-
+-- import the data and insert into the temporary table
 CREATE GLOBAL TEMPORARY TABLE TEMP_ECOMMERCE
    (	"INVOICENO" VARCHAR2(20 BYTE), 
 	"STOCKCODE" VARCHAR2(20 BYTE), 
@@ -12,11 +9,10 @@ CREATE GLOBAL TEMPORARY TABLE TEMP_ECOMMERCE
 	"CUSTOMERID" NUMBER, 
 	"COUNTRY" VARCHAR2(50 BYTE)
    ) ON COMMIT PRESERVE ROWS ;
----------------------------------------------------
-----------------------------------------------------
+------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 -- Data Cleaning 
 -- step 1: replace null value to unknown to avoid 
--- issue while using join , group by etc...
 Update TEMP_ECOMMERCE
 set DESCRIPTION ='Unknown'
 where DESCRIPTION is null
@@ -67,11 +63,8 @@ Rapports Financiers : Des quantités négatives peuvent affecter les rapports fi
 
 */
 
- 
-
 DELETE FROM TEMP_ECOMMERCE
 WHERE quantity < 0;
-
 
 DELETE FROM TEMP_ECOMMERCE
 WHERE UNITPRICE < 0;
@@ -159,10 +152,6 @@ SELECT distinct t.InvoiceNo,to_date(SUBSTR(t.INVOICEDATE, 1, INSTR(t.INVOICEDATE
 FROM TEMP_ECOMMERCE t
 where InvoiceNo is not null and  t.invoicedate in ( select max(invoicedate) from TEMP_ECOMMERCE z
 where z.InvoiceNo=t.InvoiceNo)
-
-
-select * from dim_order
-
 
 
 -- Insertion des Star Schema
@@ -347,16 +336,6 @@ PARTITION BY HASH (customer_id) PARTITIONS 4;
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
