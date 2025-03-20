@@ -66,7 +66,7 @@ Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionab
 - **Stock & Offer Optimization**: Adjust inventory based on customer behavior patterns.
 </br>
 
-**E-commerce Purchase Patterns: Daily,Hours,and Trend Anlaysis**
+<u>**E-commerce Purchase Patterns: Daily,Hours,and Trend Anlaysis**</u>
 
 <div style="display: flex; justify-content: space-around;">
 <img src="https://github.com/user-attachments/assets/a907b97a-17ef-4042-982c-e739d46c2942" alt="Graphique 1" width="30%">
