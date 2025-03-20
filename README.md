@@ -65,15 +65,14 @@ Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionab
 - **Top-Selling Products**: Focus marketing campaigns on high-demand products.
 - **Stock & Offer Optimization**: Adjust inventory based on customer behavior patterns.
 
-## 5. Conclusions & Recommendations
-
-
-
 <div style="display: flex; justify-content: space-around;">
 <img src="https://github.com/user-attachments/assets/a907b97a-17ef-4042-982c-e739d46c2942" alt="Graphique 1" width="30%">
 <img src="https://github.com/user-attachments/assets/f5e556d5-2986-4632-accd-d454bcfd160d" alt="Graphique 2" width="30%">
 <img src="https://github.com/user-attachments/assets/e4a6a9f6-41e5-4d06-a705-a7bcb5aae12c" alt="Graphique 3" width="30%">
 </div>
+
+
+## 5. Conclusions & Recommendations
 
 ### 5.1 Project Challenges
 Challenges included handling inconsistent data, optimizing complex SQL queries, and integrating multiple data sources.
