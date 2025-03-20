@@ -55,9 +55,9 @@ The following steps were taken to clean and prepare the data:
 
 ### 4.1 Behavioral Trends & Patterns
 Key customer behavioral trends observed:
-- **Peak Purchase Hours**: Orders were mostly placed between 10 AM - 3 PM.
-- **Top Purchase Days**: Saturdays had the highest sales.
-- **Product Trends**: The top 5 products accounted for over 30% of total revenue.
+- **Peak Purchase Hours**: Orders were mostly placed **between 10 AM - 3 PM**.
+- **Top Purchase Days**: **Saturdays** had the highest sales.
+- **Product Trends**: **The top 5 products** accounted for **over 30% of total revenue**.
 
 ### 4.2 Insights & Analysis
 Using Python libraries like Pandas, Matplotlib, and Seaborn, we derived actionable insights:
